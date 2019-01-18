@@ -25,6 +25,12 @@ public class Box
 		depth = (d>0)?d:1; // validation implementation
 	}
 	
+	//for object manipulation
+	public double volume()
+	{
+		return width*height*depth;
+	}
+	
 	//width = (w>0)?w:1;
 	// if (w>0)
 	// width = w;

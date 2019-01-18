@@ -21,8 +21,9 @@ public class BoxMain
 		
 		
 		// We have to find Area so
-		double volume = boxObj.getWidth() * boxObj.getDepth() * boxObj.getHeight() ; // use formula of area = l*b*h
-		
+		//double volume = boxObj.getWidth() * boxObj.getDepth() * boxObj.getHeight() ; // use formula of area = l*b*h
+		// or
+		double volume = boxObj.volume();
 		// now print volume of box
 		System.out.println("Volume of Box = " + " " + volume);
 		

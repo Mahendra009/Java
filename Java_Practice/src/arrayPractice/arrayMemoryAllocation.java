@@ -16,7 +16,7 @@ public class arrayMemoryAllocation {
 		System.out.println("Please insert the size of an Arry");
 		size = sc.nextInt();
 		
-		int marks[] = new int [size];
+		int marks[] = new int [size]; // here an array of 10 elements.
 		
 		for(count = 0; count<marks.length; count++)
 		{
